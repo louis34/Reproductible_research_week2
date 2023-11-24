@@ -79,7 +79,7 @@ hist(data$steps)
 ```
 
 ## 1.3. Median and Mean of the total number of steps taken per day
-```{r Median and mean of step per day}
+```{r Median and mean of step per day with data na}
 #Median of the number of step per day
 med_step_by_day <- median(data$steps, na.rm = TRUE)
 med_step_by_day
@@ -195,7 +195,7 @@ hist(data_no_na$steps)
 
 ## 3.4. Median, Mean and total number of step by day without NA
 
-```{r Median and mean of step per day}
+```{r Median and mean of step per day with data no na}
 #Median of the number of step per day
 med_step_by_day_no_na <- median(data_no_na$steps)
 med_step_by_day_no_na
